@@ -20,7 +20,7 @@ public class BaseballGame {
             int[] playerNumber = player.choice();
             int[] result = computer.checkStatus(playerNumber);
 
-            System.out.println(attempt+" 번째 시도 : " + Arrays.toString(result));
+            System.out.println(attempt+" 번째 시도 : " + Arrays.toString(playerNumber));
             System.out.println(result[0] + "S" + result[1] + "B");
 
             if (result[0] == 3) {

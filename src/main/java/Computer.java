@@ -35,10 +35,10 @@ public class Computer {
     public int[] checkStatus(int[] playerNumber) {
         int[] result = new int[2];
 
-        for (int i = 0; i < 2; i++) {
-            if (randomNumber[i]==result[i]) {
+        for (int i = 0; i < 3; i++) {
+            if (playerNumber[i]==randomNumber[i]) {
                 result[0]++;
-            } else if (contains(randomNumber,result[i])) {
+            } else if (contains(randomNumber,playerNumber[i])) {
                 result[1]++;
             }
         }
