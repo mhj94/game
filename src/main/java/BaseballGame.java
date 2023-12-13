@@ -1,5 +1,10 @@
 import java.util.Arrays;
-
+/**
+ * 게임을 시작한다
+ *
+ * @author : mhj94
+ * @see : playGame() 게임을 시작한다.
+ */
 public class BaseballGame {
 
     private final Computer computer;
